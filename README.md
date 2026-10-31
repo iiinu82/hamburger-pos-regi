@@ -6,7 +6,7 @@
 
 Firebase Firestoreを利用することで、レジ・キッチン・店頭ディスプレイ間で注文情報をリアルタイムに共有します。
 
----
+https://hamburger-pos-regi.vercel.app/pos
 
 ## 📸 主な機能
 
