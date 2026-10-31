@@ -41,13 +41,15 @@ export default function DisplayPage() {
 
   return (
     <>
-      <h1 className={styles.title}>オーダー表 (Display)</h1>
+      {/* <h1 className={styles.title}>オーダー表 (Display)</h1> */}
       <div className={styles.container}>
         <div className={styles.stateTitleArea}>
           <div className={`${styles.stateTitle} ${styles.waitTitle}`}>
-            オーダー
+            お待ち番号
           </div>
-          <div className={`${styles.stateTitle} ${styles.okTitle}`}>未会計</div>
+          <div className={`${styles.stateTitle} ${styles.okTitle}`}>
+            お呼出中の番号
+          </div>
         </div>
         <div className={styles.orderNumArea}>
           <div className={`${styles.orderNum} ${styles.waitNum}`}>
